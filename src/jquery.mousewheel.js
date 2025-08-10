@@ -6,6 +6,7 @@
  * Released under the MIT license
  * https://jquery.org/license
  */
+
 ( function( factory ) {
 	"use strict";
 
@@ -89,7 +90,7 @@
 			deltaX = origEvent.deltaX;
 			if ( deltaY === 0 ) {
 				delta  = deltaX * -1;
-			}
+		}
 		}
 
 		// No change actually happened, no reason to go any further
